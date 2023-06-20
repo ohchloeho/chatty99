@@ -1,0 +1,21 @@
+# fly.toml app configuration file generated for chatty99 on 2023-06-18T19:54:21+10:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "chatty99"
+primary_region = "sin"
+
+[env]
+  PORT = "8080"
+
+[[mounts]]
+  source = "pb_data"
+  destination = "/pb/pb_data"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
