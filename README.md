@@ -2,3 +2,4 @@
 
 This is a web chat application built on SvelteKit and PocketBase
 
+## what i need help with 
