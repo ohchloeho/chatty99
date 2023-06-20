@@ -38,7 +38,7 @@
 	}
     .messages-container{
         overflow: scroll;
-        height: 78vh;
+        height: 75vh;
     }
 	.new-message {
 		position: absolute;

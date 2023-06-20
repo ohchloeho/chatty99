@@ -52,7 +52,7 @@
 	};
 </script>
 
-<div class="container-lg mt-3 main">
+<div class="container-lg mt-0 main">
 	{#if $currentUser}
 		<div class="header">
 			<h1>Chatty 99</h1>
@@ -100,6 +100,9 @@
 </div>
 
 <style>
+	.main{
+		max-height: 90vh;
+	}
 	.header {
 		position: relative;
 		display: flex;
