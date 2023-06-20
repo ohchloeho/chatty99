@@ -1,5 +1,5 @@
-fly.toml
-Dockerfile
+./pocketbase/fly.toml
+./pocketbase/Dockerfile
 .dockerignore
 node_modules
 .git
